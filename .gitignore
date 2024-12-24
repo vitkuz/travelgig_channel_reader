@@ -1,0 +1,5 @@
+node_modules
+.bolt
+.env
+.idea
+*.js

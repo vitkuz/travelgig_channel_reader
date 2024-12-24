@@ -1,0 +1,22 @@
+{
+  "name": "telegram-channel-reader",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/generateSession.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "input": "^1.0.1",
+    "telegram": "^2.19.10",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
